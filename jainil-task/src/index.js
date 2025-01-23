@@ -126,7 +126,8 @@ function generateShoeCards(numberOfShoes) {
 
     shoeCard.querySelector("h3").textContent = shoeDetail.name;
     shoeCard.querySelector("p:nth-of-type(1)").textContent = shoeDetail.price;
-    shoeCard.querySelector("p:nth-of-type(2)").textContent = shoeDetail.description;
+    shoeCard.querySelector("p:nth-of-type(2)").textContent =
+      shoeDetail.description;
 
     const sizeList = shoeCard.querySelector("ul");
     sizeList.innerHTML = "";
